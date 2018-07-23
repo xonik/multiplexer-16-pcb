@@ -12871,7 +12871,6 @@ DG506BE</text>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="-86.36" y1="96.52" x2="-86.36" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="AGND6" gate="VR1" pin="AGND"/>
-<junction x="-86.36" y="96.52"/>
 </segment>
 <segment>
 <pinref part="C41" gate="G$1" pin="1"/>
@@ -12900,7 +12899,6 @@ DG506BE</text>
 <wire x1="15.24" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
 <label x="2.54" y="38.1" size="1.778" layer="95"/>
-<junction x="10.16" y="38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO1"/>
@@ -12915,7 +12913,6 @@ DG506BE</text>
 <wire x1="15.24" y1="58.42" x2="10.16" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="58.42" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 <label x="2.54" y="58.42" size="1.778" layer="95"/>
-<junction x="10.16" y="58.42"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO2"/>
@@ -12930,7 +12927,6 @@ DG506BE</text>
 <wire x1="15.24" y1="81.28" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
 <label x="2.54" y="81.28" size="1.778" layer="95"/>
-<junction x="10.16" y="81.28"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO3"/>
@@ -12990,7 +12986,6 @@ DG506BE</text>
 <wire x1="15.24" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="101.6" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
 <label x="2.54" y="101.6" size="1.778" layer="95"/>
-<junction x="10.16" y="101.6"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO4"/>
@@ -13292,7 +13287,6 @@ DG506BE</text>
 <wire x1="17.78" y1="-83.82" x2="12.7" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-83.82" x2="5.08" y2="-83.82" width="0.1524" layer="91"/>
 <label x="5.08" y="-83.82" size="1.778" layer="95"/>
-<junction x="12.7" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO5"/>
@@ -13307,7 +13301,6 @@ DG506BE</text>
 <wire x1="17.78" y1="-63.5" x2="12.7" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-63.5" x2="5.08" y2="-63.5" width="0.1524" layer="91"/>
 <label x="5.08" y="-63.5" size="1.778" layer="95"/>
-<junction x="12.7" y="-63.5"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO6"/>
@@ -13322,7 +13315,6 @@ DG506BE</text>
 <wire x1="17.78" y1="-40.64" x2="12.7" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-40.64" x2="5.08" y2="-40.64" width="0.1524" layer="91"/>
 <label x="5.08" y="-40.64" size="1.778" layer="95"/>
-<junction x="12.7" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO7"/>
@@ -13337,7 +13329,6 @@ DG506BE</text>
 <wire x1="17.78" y1="-20.32" x2="12.7" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-20.32" x2="5.08" y2="-20.32" width="0.1524" layer="91"/>
 <label x="5.08" y="-20.32" size="1.778" layer="95"/>
-<junction x="12.7" y="-20.32"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO8"/>
@@ -13492,7 +13483,6 @@ DG506BE</text>
 <wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <label x="106.68" y="101.6" size="1.778" layer="95"/>
-<junction x="114.3" y="101.6"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO12"/>
@@ -13522,7 +13512,6 @@ DG506BE</text>
 <wire x1="119.38" y1="81.28" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <label x="106.68" y="81.28" size="1.778" layer="95"/>
-<junction x="114.3" y="81.28"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO11"/>
@@ -13552,7 +13541,6 @@ DG506BE</text>
 <wire x1="119.38" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 <label x="106.68" y="58.42" size="1.778" layer="95"/>
-<junction x="114.3" y="58.42"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO10"/>
@@ -13597,7 +13585,6 @@ DG506BE</text>
 <wire x1="119.38" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 <label x="106.68" y="38.1" size="1.778" layer="95"/>
-<junction x="114.3" y="38.1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO9"/>
@@ -13700,7 +13687,6 @@ DG506BE</text>
 <wire x1="119.38" y1="-20.32" x2="114.3" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-20.32" x2="106.68" y2="-20.32" width="0.1524" layer="91"/>
 <label x="106.68" y="-20.32" size="1.778" layer="95"/>
-<junction x="114.3" y="-20.32"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO16"/>
@@ -13745,7 +13731,6 @@ DG506BE</text>
 <wire x1="119.38" y1="-40.64" x2="114.3" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-40.64" x2="106.68" y2="-40.64" width="0.1524" layer="91"/>
 <label x="106.68" y="-40.64" size="1.778" layer="95"/>
-<junction x="114.3" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO15"/>
@@ -13760,7 +13745,6 @@ DG506BE</text>
 <wire x1="119.38" y1="-63.5" x2="114.3" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-63.5" x2="106.68" y2="-63.5" width="0.1524" layer="91"/>
 <label x="106.68" y="-63.5" size="1.778" layer="95"/>
-<junction x="114.3" y="-63.5"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO14"/>
@@ -13805,7 +13789,6 @@ DG506BE</text>
 <wire x1="119.38" y1="-83.82" x2="114.3" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-83.82" x2="106.68" y2="-83.82" width="0.1524" layer="91"/>
 <label x="106.68" y="-83.82" size="1.778" layer="95"/>
-<junction x="114.3" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="NO13"/>
