@@ -6059,22 +6059,22 @@ MAX3221-MAX3243.pdf; SO28W</description>
 <element name="IC21" library="synthdiy" package="SO16" value="LM13700M" x="79.248" y="76.708" smashed="yes">
 <attribute name="VALUE" x="75.184" y="76.073" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R137" library="resistor" package="R0805" value="27k" x="83.3755" y="73.2155" smashed="yes" rot="MR90">
+<element name="R137" library="resistor" package="R0805" value="12k" x="83.3755" y="73.2155" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="81.0895" y="72.4535" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R138" library="resistor" package="R0805" value="12k" x="80.8355" y="73.2155" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="83.1215" y="73.9775" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R139" library="resistor" package="R0805" value="27k" x="83.3755" y="80.2005" smashed="yes" rot="MR270">
+<element name="R139" library="resistor" package="R0805" value="12k" x="83.3755" y="80.2005" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="85.6615" y="80.9625" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R140" library="resistor" package="R0805" value="12k" x="80.8355" y="80.2005" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="78.5495" y="79.4385" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R141" library="resistor" package="R0805" value="88k2" x="78.2955" y="73.533" smashed="yes" rot="MR90">
+<element name="R141" library="resistor" package="R0805" value="8k2" x="78.2955" y="73.533" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="76.0095" y="72.771" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R142" library="resistor" package="R0805" value="88k2" x="78.2955" y="79.883" smashed="yes" rot="MR270">
+<element name="R142" library="resistor" package="R0805" value="8k2" x="78.2955" y="79.883" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="80.5815" y="80.645" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R143" library="resistor" package="R0805" value="3k3" x="70.993" y="71.9455" smashed="yes" rot="MR0">
