@@ -991,6 +991,7 @@
 <vertex x="27.9518875" y="18.993046875"/>
 </polygon>
 <text x="31.115" y="12.3825" size="1.778" layer="26" font="vector" rot="MR0">4 ch. CV buffer</text>
+<text x="36.195" y="0.635" size="1.27" layer="25" ratio="16" rot="R90">v1.0</text>
 </plain>
 <libraries>
 <library name="resistor">
