@@ -1,0 +1,9 @@
+Extended parts, 4ch sample & hold
+10uF
+22uF
+
+Missing parts, BOM
+TL074,IC5,SO14,C6963
+
+Wrong rotation
+C2, C3 - swapped polarities

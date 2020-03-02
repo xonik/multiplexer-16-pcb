@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14332,6 +14332,13 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <plain>
 <text x="26.67" y="-77.47" size="5.08" layer="97">TODO: 
 Check cap footprint with JLCPCB</text>
+<text x="101.6" y="7.62" size="5.08" layer="97">with 0-10V input:
+Max current through resistors when
+feeding into a 10k res is:
+100R: 1mA = 0.1mW
+1k: 63nA
+
+OK with 1/10w resistors</text>
 </plain>
 <instances>
 <instance part="P+1" gate="1" x="5.08" y="-58.42" smashed="yes">
