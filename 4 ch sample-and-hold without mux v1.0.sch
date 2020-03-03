@@ -14298,16 +14298,16 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/231/151002386372-1222327.
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND19" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND20" library="supply1" deviceset="AGND" device=""/>
-<part name="C39" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C39" library="resistor" deviceset="C-EU" device="C0603" value="330pF"/>
 <part name="R34" library="resistor" deviceset="R-EU_" device="R0603" value="100R"/>
 <part name="R33" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R32" library="resistor" deviceset="R-EU_" device="R0603" value="100R"/>
 <part name="R31" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="C38" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
-<part name="C37" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C38" library="resistor" deviceset="C-EU" device="C0603" value="330pF"/>
+<part name="C37" library="resistor" deviceset="C-EU" device="C0603" value="330pF"/>
 <part name="R30" library="resistor" deviceset="R-EU_" device="R0603" value="100R"/>
 <part name="R29" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="C36" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C36" library="resistor" deviceset="C-EU" device="C0603" value="330pF"/>
 <part name="R27" library="resistor" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R28" library="resistor" deviceset="R-EU_" device="R0603" value="100R"/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF"/>

@@ -3569,7 +3569,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="SPICEPREFIX" value="C" x="16.51" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="13.97" y="19.05" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C39" library="resistor" package="C0603" value="0.1uF" x="21.9075" y="6.6675" smashed="yes" rot="R90">
+<element name="C39" library="resistor" package="C0603" value="330pF" x="21.9075" y="6.6675" smashed="yes" rot="R90">
 <attribute name="VALUE" x="23.8125" y="6.0325" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R34" library="resistor" package="R0603" value="100R" x="19.3675" y="6.6675" smashed="yes" rot="R90">
@@ -3584,10 +3584,10 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="R31" library="resistor" package="R0603" value="1k" x="26.67" y="6.6675" smashed="yes" rot="R270">
 <attribute name="VALUE" x="24.765" y="7.3025" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C38" library="resistor" package="C0603" value="0.1uF" x="28.8925" y="6.6675" smashed="yes" rot="R90">
+<element name="C38" library="resistor" package="C0603" value="330pF" x="28.8925" y="6.6675" smashed="yes" rot="R90">
 <attribute name="VALUE" x="30.7975" y="6.0325" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C37" library="resistor" package="C0603" value="0.1uF" x="28.8925" y="18.0975" smashed="yes" rot="R270">
+<element name="C37" library="resistor" package="C0603" value="330pF" x="28.8925" y="18.0975" smashed="yes" rot="R270">
 <attribute name="VALUE" x="26.9875" y="18.7325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R30" library="resistor" package="R0603" value="100R" x="31.4325" y="18.0975" smashed="yes" rot="R270">
@@ -3596,7 +3596,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <element name="R29" library="resistor" package="R0603" value="1k" x="26.67" y="18.0975" smashed="yes" rot="R90">
 <attribute name="VALUE" x="28.575" y="17.4625" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C36" library="resistor" package="C0603" value="0.1uF" x="21.9075" y="18.0975" smashed="yes" rot="R270">
+<element name="C36" library="resistor" package="C0603" value="330pF" x="21.9075" y="18.0975" smashed="yes" rot="R270">
 <attribute name="VALUE" x="20.0025" y="18.7325" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R27" library="resistor" package="R0603" value="1k" x="24.13" y="18.0975" smashed="yes" rot="R90">
