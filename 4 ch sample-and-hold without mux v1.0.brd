@@ -3927,8 +3927,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="19.3675" y1="18.0975" x2="20.6375" y2="18.0975" width="0.254" layer="1"/>
 <wire x1="20.6375" y1="18.0975" x2="24.13" y2="18.0975" width="0.254" layer="1"/>
 <wire x1="24.13" y1="18.0975" x2="24.13" y2="18.9475" width="0.254" layer="1"/>
-<wire x1="24.13" y1="18.0975" x2="25.4" y2="18.0975" width="0.254" layer="1"/>
-<via x="25.4" y="18.0975" extent="1-16" drill="0.3048"/>
 <contactref element="SV1" pad="4"/>
 <wire x1="22.225" y1="16.51" x2="22.225" y2="3.175" width="0.254" layer="16"/>
 <wire x1="22.225" y1="16.51" x2="20.6375" y2="18.0975" width="0.254" layer="16"/>
