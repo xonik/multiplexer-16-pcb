@@ -3973,19 +3973,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="11.7475" y1="7.3025" x2="13.5509" y2="7.3025" width="0.3048" layer="1"/>
 <wire x1="13.5509" y1="7.3025" x2="18.0975" y2="7.3025" width="0.3048" layer="1"/>
 </signal>
-<signal name="DAC">
+<signal name="DAC2">
 <via x="21.2725" y="13.6525" extent="1-16" drill="0.35"/>
-<wire x1="21.2725" y1="13.6525" x2="20.32" y2="14.605" width="0.3048" layer="16"/>
-<wire x1="20.32" y1="14.605" x2="10.16" y2="14.605" width="0.3048" layer="16"/>
-<wire x1="10.16" y1="14.605" x2="7.14375" y2="17.62125" width="0.3048" layer="16"/>
+<wire x1="21.2725" y1="13.6525" x2="17.4625" y2="17.4625" width="0.3048" layer="16"/>
+<wire x1="17.4625" y1="17.4625" x2="7.3025" y2="17.4625" width="0.3048" layer="16"/>
 <contactref element="SV3" pad="15"/>
-<wire x1="7.14375" y1="17.62125" x2="5.715" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="7.3025" y1="17.4625" x2="5.715" y2="19.05" width="0.3048" layer="16"/>
 <wire x1="5.715" y1="19.05" x2="3.81" y2="19.05" width="0.3048" layer="16"/>
 <contactref element="IC7" pad="3"/>
-<contactref element="IC8" pad="3"/>
-<wire x1="7.4041" y1="13.6525" x2="5.715" y2="13.6525" width="0.3048" layer="1"/>
-<wire x1="5.715" y1="17.145" x2="3.81" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="5.715" y1="13.6525" x2="5.715" y2="17.145" width="0.3048" layer="1"/>
 <wire x1="21.2725" y1="13.6525" x2="19.7866" y2="13.6525" width="0.3048" layer="1"/>
 </signal>
 <signal name="EN1">
@@ -4017,9 +4012,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <vertex x="13.335" y="10.795"/>
 <vertex x="12.7" y="11.43"/>
 <vertex x="6.6675" y="11.43"/>
-<vertex x="6.0325" y="12.065"/>
-<vertex x="6.0325" y="13.6525"/>
-<vertex x="4.445" y="15.24"/>
+<vertex x="2.8575" y="15.24"/>
 <vertex x="-0.3175" y="15.24"/>
 </polygon>
 <contactref element="SV3" pad="5"/>
@@ -4127,6 +4120,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ua78l05.pdf</description>
 <wire x1="24.4475" y1="6.35" x2="22.86" y2="6.35" width="0.508" layer="16"/>
 <wire x1="25.908" y1="6.985" x2="25.0825" y2="6.985" width="0.508" layer="16"/>
 <wire x1="25.0825" y1="6.985" x2="24.4475" y2="6.35" width="0.508" layer="16"/>
+</signal>
+<signal name="DAC1">
+<contactref element="SV3" pad="13"/>
+<contactref element="IC8" pad="3"/>
+<wire x1="3.81" y1="16.51" x2="5.715" y2="14.605" width="0.3048" layer="1"/>
+<wire x1="5.715" y1="13.97" x2="6.0325" y2="13.6525" width="0.3048" layer="1"/>
+<wire x1="6.0325" y1="13.6525" x2="7.4041" y2="13.6525" width="0.3048" layer="1"/>
+<wire x1="5.715" y1="14.605" x2="5.715" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

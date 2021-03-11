@@ -5760,12 +5760,7 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 <label x="-55.88" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DAC" class="0">
-<segment>
-<wire x1="-50.8" y1="5.08" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
-<label x="-60.96" y="5.08" size="1.778" layer="95"/>
-<pinref part="IC8" gate="A" pin="X"/>
-</segment>
+<net name="DAC2" class="0">
 <segment>
 <wire x1="-50.8" y1="66.04" x2="-66.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="-66.04" y="66.04" size="1.778" layer="95"/>
@@ -5899,6 +5894,18 @@ Source: &lt;a href="http://focus.ti.com/lit/ds/symlink/ua78l05.pdf"&gt; Datashee
 <wire x1="-127" y1="76.2" x2="-119.38" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-127" y="76.2"/>
 <junction x="-119.38" y="76.2"/>
+</segment>
+</net>
+<net name="DAC1" class="0">
+<segment>
+<pinref part="SV3" gate="G$1" pin="13"/>
+<wire x1="-30.48" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-30.48" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-50.8" y1="5.08" x2="-60.96" y2="5.08" width="0.1524" layer="91"/>
+<label x="-60.96" y="5.08" size="1.778" layer="95"/>
+<pinref part="IC8" gate="A" pin="X"/>
 </segment>
 </net>
 </nets>
