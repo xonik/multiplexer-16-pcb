@@ -5812,9 +5812,9 @@ Consider separate digital supply</text>
 <instance part="AGND12" gate="VR1" x="7.62" y="71.12" smashed="yes">
 <attribute name="VALUE" x="-2.54" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="G$1" x="129.54" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="125.73" y="-30.48" size="1.778" layer="96"/>
-<attribute name="NAME" x="125.73" y="-11.938" size="1.778" layer="95"/>
+<instance part="X1" gate="G$1" x="134.62" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="130.81" y="-15.24" size="1.778" layer="96"/>
+<attribute name="NAME" x="130.81" y="3.302" size="1.778" layer="95"/>
 </instance>
 <instance part="X2" gate="G$1" x="38.1" y="-35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="39.37" y="-12.7" size="1.778" layer="96" rot="R180"/>
@@ -5925,6 +5925,11 @@ Consider separate digital supply</text>
 <segment>
 <wire x1="55.88" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 <label x="55.88" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="9"/>
+<wire x1="142.24" y1="0" x2="160.02" y2="0" width="0.1524" layer="91"/>
+<label x="144.78" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_7" class="0">
@@ -6044,6 +6049,11 @@ Consider separate digital supply</text>
 <wire x1="55.88" y1="25.4" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <label x="55.88" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="10"/>
+<wire x1="127" y1="0" x2="109.22" y2="0" width="0.1524" layer="91"/>
+<label x="109.22" y="0" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -6055,6 +6065,11 @@ Consider separate digital supply</text>
 <wire x1="55.88" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 <label x="55.88" y="17.78" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="-2.54" x2="160.02" y2="-2.54" width="0.1524" layer="91"/>
+<label x="144.78" y="-2.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -6065,6 +6080,11 @@ Consider separate digital supply</text>
 <segment>
 <wire x1="55.88" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <label x="55.88" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="-5.08" x2="160.02" y2="-5.08" width="0.1524" layer="91"/>
+<label x="144.78" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -6107,11 +6127,21 @@ Consider separate digital supply</text>
 <wire x1="55.88" y1="7.62" x2="86.36" y2="7.62" width="0.1524" layer="91"/>
 <label x="55.88" y="7.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="127" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
+<label x="109.22" y="-10.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <wire x1="86.36" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <label x="55.88" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-10.16" x2="160.02" y2="-10.16" width="0.1524" layer="91"/>
+<label x="144.78" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -6119,17 +6149,32 @@ Consider separate digital supply</text>
 <wire x1="55.88" y1="2.54" x2="86.36" y2="2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="2.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="127" y1="-7.62" x2="109.22" y2="-7.62" width="0.1524" layer="91"/>
+<label x="109.22" y="-7.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INH_1" class="0">
 <segment>
 <wire x1="86.36" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
 <label x="55.88" y="0" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="-7.62" x2="160.02" y2="-7.62" width="0.1524" layer="91"/>
+<label x="144.78" y="-7.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INH_2" class="0">
 <segment>
 <wire x1="55.88" y1="-2.54" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
 <label x="55.88" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="6"/>
+<wire x1="127" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<label x="109.22" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OUT_16" class="0">
@@ -6417,6 +6462,13 @@ Consider separate digital supply</text>
 <wire x1="60.96" y1="-71.12" x2="45.72" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="X6" gate="G$1" pin="3"/>
 <label x="45.72" y="-71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="8"/>
+<wire x1="127" y1="-2.54" x2="109.22" y2="-2.54" width="0.1524" layer="91"/>
+<label x="109.22" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
