@@ -4249,6 +4249,14 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <vertex x="-1.905" y="1.27"/>
 </polygon>
 </package>
+<package name="MA02N-1J">
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="octagon" rot="R90"/>
+<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -4779,6 +4787,15 @@ Connect AVdd to IOVdd
 </technologies>
 </device>
 <device name="P" package="SIP-PIN02-1J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="N" package="MA02N-1J">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5448,7 +5465,7 @@ Based on the following sources:
 <part name="X7" library="joakim" deviceset="MA15-1J" device="C" value="FEMALE"/>
 <part name="X8" library="joakim" deviceset="MA07-1J" device="C" value="FEMALE"/>
 <part name="X4" library="joakim" deviceset="MA01-1J" device="N" value="DNM"/>
-<part name="X9" library="joakim" deviceset="MA02-1J" device="C" value="DNM"/>
+<part name="X9" library="joakim" deviceset="MA02-1J" device="N" value="DNM"/>
 </parts>
 <sheets>
 <sheet>
