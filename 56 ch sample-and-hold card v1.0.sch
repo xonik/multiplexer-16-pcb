@@ -4618,7 +4618,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DAC8586" prefix="IC">
+<deviceset name="DAC8565" prefix="IC">
 <description>Texas Instruments DAC8565&lt;br/&gt;
 4 channel 16 bit DAC, SPI
 &lt;p&gt;
@@ -10240,10 +10240,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P-19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
 <part name="C119" library="joakim" deviceset="C-EU-J" device="0402" value="1uF"/>
 <part name="AGND101" library="supply1" deviceset="AGND" device=""/>
-<part name="IC2" library="joakim" deviceset="DAC8586" device="F" value="DAC8586F"/>
+<part name="IC2" library="joakim" deviceset="DAC8565" device="F" value="DAC8565F"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="150nF"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" deviceset="AGND" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
@@ -10273,11 +10273,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
-<part name="X6" library="joakim" deviceset="MA08-2J" device="" value="FEMALE"/>
-<part name="X10" library="joakim" deviceset="MA07-2J" device="" value="FEMALE"/>
-<part name="U$2" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
-<part name="U$3" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
-<part name="U$4" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
+<part name="X6" library="joakim" deviceset="MA08-2J" device="" value="MA08-2J-FEMALE"/>
+<part name="X10" library="joakim" deviceset="MA07-2J" device="" value="MA07-2J-FEMALE"/>
+<part name="U$2" library="joakim" deviceset="MA15-2J" device="" value="MA15-2J-FEMALE"/>
+<part name="U$3" library="joakim" deviceset="MA15-2J" device="" value="MA15-2J-FEMALE"/>
+<part name="U$4" library="joakim" deviceset="MA15-2J" device="" value="MA15-2J-FEMALE"/>
 <part name="C5" library="joakim" deviceset="C-EU-J" device="0402" value="1uF"/>
 <part name="P+1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="P-2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
