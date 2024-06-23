@@ -4240,6 +4240,51 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/40039E.pdf</description>
 <vertex x="-18.415" y="-2.54"/>
 </polygon>
 </package>
+<package name="DIL16-FM-CON">
+<description>&lt;b&gt;Dual In Line 16&lt;/b&gt;</description>
+<wire x1="-10.16" y1="-0.635" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.4902" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="-0.635" x2="-10.16" y2="0.635" width="0.127" layer="21" curve="180"/>
+<pad name="1" x="-8.89" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="1.016" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="1.016" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="1.016" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="1.016" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="1.016" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="1.016" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="1.016" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="1.016" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="1.016" rot="R90"/>
+<text x="-11.8364" y="-4.064" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.89" y="-0.9652" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-10.4902" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-10.4902" y1="5.08" x2="10.4902" y2="5.08" width="0.127" layer="21"/>
+<wire x1="10.4902" y1="5.08" x2="10.4902" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.4902" y1="2.54" x2="-10.4902" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.4902" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="10.4902" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="10.4902" y1="-2.54" x2="10.4902" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="10.4902" y1="-5.08" x2="-10.4902" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-10.4902" y1="-2.54" x2="10.4902" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.4902" y1="5.08" x2="-10.4902" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.4902" y1="-5.08" x2="-10.4902" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-10.4902" y1="-2.54" x2="10.4902" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="10.4902" y1="-2.54" x2="10.4902" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="10.4902" y1="-5.08" x2="-10.4902" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="-10.4902" y1="-5.08" x2="-10.4902" y2="-2.54" width="0.127" layer="39"/>
+<wire x1="-10.4902" y1="5.08" x2="10.4902" y2="5.08" width="0.127" layer="39"/>
+<wire x1="10.4902" y1="5.08" x2="10.4902" y2="2.54" width="0.127" layer="39"/>
+<wire x1="10.4902" y1="2.54" x2="-10.4902" y2="2.54" width="0.127" layer="39"/>
+<wire x1="-10.4902" y1="2.54" x2="-10.4902" y2="5.08" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C-EU">
@@ -4611,6 +4656,29 @@ Connect AVdd to IOVdd
 </technologies>
 </device>
 <device name="D" package="DIL16J">
+<connects>
+<connect gate="G$1" pin="!ENABLE" pad="15"/>
+<connect gate="G$1" pin="!RST" pad="13"/>
+<connect gate="G$1" pin="!SYNC" pad="9"/>
+<connect gate="G$1" pin="AVDD" pad="4"/>
+<connect gate="G$1" pin="DIN" pad="11"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="IOVDD" pad="12"/>
+<connect gate="G$1" pin="LDAC" pad="16"/>
+<connect gate="G$1" pin="OUT_A" pad="1"/>
+<connect gate="G$1" pin="OUT_B" pad="2"/>
+<connect gate="G$1" pin="OUT_C" pad="7"/>
+<connect gate="G$1" pin="OUT_D" pad="8"/>
+<connect gate="G$1" pin="RSTSEL" pad="14"/>
+<connect gate="G$1" pin="SCLK" pad="10"/>
+<connect gate="G$1" pin="VREF_H" pad="3"/>
+<connect gate="G$1" pin="VREF_L" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F" package="DIL16-FM-CON">
 <connects>
 <connect gate="G$1" pin="!ENABLE" pad="15"/>
 <connect gate="G$1" pin="!RST" pad="13"/>
@@ -10172,7 +10240,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P-19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
 <part name="C119" library="joakim" deviceset="C-EU-J" device="0402" value="1uF"/>
 <part name="AGND101" library="supply1" deviceset="AGND" device=""/>
-<part name="IC2" library="joakim" deviceset="DAC8586" device="D"/>
+<part name="IC2" library="joakim" deviceset="DAC8586" device="F" value="DAC8586F"/>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="150nF"/>
@@ -10205,11 +10273,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="220R"/>
-<part name="X6" library="joakim" deviceset="MA08-2J" device=""/>
-<part name="X10" library="joakim" deviceset="MA07-2J" device=""/>
-<part name="U$2" library="joakim" deviceset="MA15-2J" device=""/>
-<part name="U$3" library="joakim" deviceset="MA15-2J" device=""/>
-<part name="U$4" library="joakim" deviceset="MA15-2J" device=""/>
+<part name="X6" library="joakim" deviceset="MA08-2J" device="" value="FEMALE"/>
+<part name="X10" library="joakim" deviceset="MA07-2J" device="" value="FEMALE"/>
+<part name="U$2" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
+<part name="U$3" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
+<part name="U$4" library="joakim" deviceset="MA15-2J" device="" value="FEMALE"/>
 <part name="C5" library="joakim" deviceset="C-EU-J" device="0402" value="1uF"/>
 <part name="P+1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="P-2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="-12V" device=""/>
