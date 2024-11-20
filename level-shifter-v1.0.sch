@@ -221,22 +221,22 @@ chip</description>
 </package>
 <package name="VSSOP8J">
 <description>&lt;b&gt;VSSOP-8&lt;/b&gt;
-Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
-<wire x1="1.25" y1="1.5" x2="1.25" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="-1.5" x2="-1.25" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="-1.25" y1="-1.5" x2="-1.25" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="1.5" x2="1.25" y2="1.5" width="0.2032" layer="51"/>
-<circle x="-0.55" y="-0.8" radius="0.3" width="0" layer="21"/>
-<smd name="2" x="-0.25" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="5" x="0.75" y="2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="1" x="-0.75" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="3" x="0.25" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="4" x="0.75" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="6" x="0.25" y="2.2" dx="0.3" dy="1.45" layer="1"/>
+Source: https://www.ti.com/lit/ml/mpds050e/mpds050e.pdf (TI VSSOP, DCU0008A)</description>
+<wire x1="1.15" y1="1.2" x2="1.15" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.15" y1="-1.2" x2="-1.15" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-1.15" y1="-1.2" x2="-1.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-1.15" y1="1.2" x2="1.15" y2="1.2" width="0.2032" layer="51"/>
+<circle x="-0.55" y="-0.6" radius="0.3" width="0" layer="21"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="5" x="0.75" y="1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="1" x="-0.75" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="6" x="0.25" y="1.55" dx="0.3" dy="0.85" layer="1"/>
 <text x="-1.782" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.9845" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<smd name="7" x="-0.25" y="2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="8" x="-0.75" y="2.2" dx="0.3" dy="1.45" layer="1"/>
+<smd name="7" x="-0.25" y="1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="8" x="-0.75" y="1.55" dx="0.3" dy="0.85" layer="1"/>
 </package>
 <package name="MA06-1J">
 <wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
@@ -602,8 +602,8 @@ Single-direction 3.3V to 5V / 5V to 3.3V voltage translator</description>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="joakim" deviceset="MA06-1J" device="C"/>
-<part name="X2" library="joakim" deviceset="MA06-1J" device="C"/>
+<part name="X1" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
+<part name="X2" library="joakim" deviceset="MA06-1J" device="N" value="MA06-1JN"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -17,9 +17,9 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -35,9 +35,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -159,6 +159,27 @@
 <wire x1="0.9525" y1="10.16" x2="15.24" y2="10.16" width="0" layer="20"/>
 <wire x1="15.24" y1="10.16" x2="15.24" y2="0" width="0" layer="20"/>
 <wire x1="15.24" y1="0" x2="0" y2="0" width="0" layer="20"/>
+<text x="1.905" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">VA</text>
+<text x="14.605" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">VB</text>
+<text x="12.065" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">A4</text>
+<text x="9.525" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">A3</text>
+<text x="6.985" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">A2</text>
+<text x="4.445" y="7.62" size="1.016" layer="26" font="vector" rot="MR270">A1</text>
+<text x="13.6525" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">Gd</text>
+<text x="11.1125" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">B4</text>
+<text x="8.5725" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">B3</text>
+<text x="6.0325" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">B2</text>
+<text x="3.4925" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">B1</text>
+<text x="0.9525" y="2.54" size="1.016" layer="26" font="vector" rot="MR90">Dir</text>
+<text x="10.16" y="4.7625" size="0.8128" layer="26" font="vector" rot="MR0">D:VA=A  B, 0=B  A</text>
+<wire x1="6.19125" y1="5.08" x2="5.3975" y2="5.08" width="0.1016" layer="26"/>
+<wire x1="5.3975" y1="5.08" x2="5.715" y2="5.3975" width="0.1016" layer="26"/>
+<wire x1="5.3975" y1="5.08" x2="5.715" y2="4.7625" width="0.1016" layer="26"/>
+<wire x1="1.5875" y1="5.08" x2="0.9525" y2="5.08" width="0.1016" layer="26"/>
+<wire x1="0.9525" y1="5.08" x2="1.27" y2="5.3975" width="0.1016" layer="26"/>
+<wire x1="0.9525" y1="5.08" x2="1.27" y2="4.7625" width="0.1016" layer="26"/>
+<text x="14.76375" y="4.7625" size="0.8128" layer="26" font="vector" rot="MR0">v1.0</text>
+<text x="1.74625" y="2.69875" size="0.8128" layer="25" font="vector">4 x Logic level shifter</text>
 </plain>
 <libraries>
 <library name="joakim">
@@ -182,55 +203,24 @@
 </package>
 <package name="VSSOP8J">
 <description>&lt;b&gt;VSSOP-8&lt;/b&gt;
-Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
-<wire x1="1.25" y1="1.5" x2="1.25" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="-1.5" x2="-1.25" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="-1.25" y1="-1.5" x2="-1.25" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="1.5" x2="1.25" y2="1.5" width="0.2032" layer="51"/>
-<circle x="-0.55" y="-0.8" radius="0.3" width="0" layer="21"/>
-<smd name="2" x="-0.25" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="5" x="0.75" y="2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="1" x="-0.75" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="3" x="0.25" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="4" x="0.75" y="-2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="6" x="0.25" y="2.2" dx="0.3" dy="1.45" layer="1"/>
+Source: https://www.ti.com/lit/ml/mpds050e/mpds050e.pdf (TI VSSOP, DCU0008A)</description>
+<wire x1="1.15" y1="1.2" x2="1.15" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.15" y1="-1.2" x2="-1.15" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-1.15" y1="-1.2" x2="-1.15" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-1.15" y1="1.2" x2="1.15" y2="1.2" width="0.2032" layer="51"/>
+<circle x="-0.55" y="-0.6" radius="0.3" width="0" layer="21"/>
+<smd name="2" x="-0.25" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="5" x="0.75" y="1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="1" x="-0.75" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="3" x="0.25" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="4" x="0.75" y="-1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="6" x="0.25" y="1.55" dx="0.3" dy="0.85" layer="1"/>
 <text x="-1.782" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.9845" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<smd name="7" x="-0.25" y="2.2" dx="0.3" dy="1.45" layer="1"/>
-<smd name="8" x="-0.75" y="2.2" dx="0.3" dy="1.45" layer="1"/>
+<smd name="7" x="-0.25" y="1.55" dx="0.3" dy="0.85" layer="1"/>
+<smd name="8" x="-0.75" y="1.55" dx="0.3" dy="0.85" layer="1"/>
 </package>
-<package name="MA06-1J">
-<wire x1="-6.985" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="1.27" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="-1.27" x2="-6.985" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<package name="MA06N-1J">
 <pad name="1" x="-6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="2" x="-3.81" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <pad name="3" x="-1.27" y="0" drill="1.016" shape="octagon" rot="R90"/>
@@ -243,25 +233,8 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<polygon width="0.1524" layer="21">
-<vertex x="-6.985" y="1.27"/>
-<vertex x="-7.62" y="1.27"/>
-<vertex x="-7.62" y="0.635"/>
-</polygon>
-<polygon width="0.1524" layer="21">
-<vertex x="-7.62" y="-0.635"/>
-<vertex x="-7.62" y="-1.27"/>
-<vertex x="-6.985" y="-1.27"/>
-</polygon>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 <pad name="6" x="6.35" y="0" drill="1.016" shape="octagon" rot="R90"/>
-<wire x1="5.08" y1="0.635" x2="5.715" y2="1.27" width="0.127" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.127" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0.635" x2="7.62" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="6.985" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-1.27" x2="5.715" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -457,7 +430,7 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <attribute name="VALUE" x="4.7625" y="5.715" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IC1" library="joakim" package="VSSOP8J" value="SN74LVC2T45" x="3.175" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.54" y="2.7345" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="3.4925" y="6.5445" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="0" y="2.0955" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="joakim" package="C0402-J" value="1uF" x="8.5725" y="5.08" smashed="yes" rot="R270">
@@ -467,13 +440,13 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <attribute name="VALUE" x="12.7" y="5.08" size="1.27" layer="27"/>
 </element>
 <element name="IC2" library="joakim" package="VSSOP8J" value="SN74LVC2T45" x="12.065" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.43" y="2.7345" size="0.8128" layer="25" font="vector"/>
+<attribute name="NAME" x="10.00125" y="6.5445" size="0.8128" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.89" y="2.0955" size="1.27" layer="27"/>
 </element>
-<element name="X1" library="joakim" package="MA06-1J" value="MA06-1JC" x="7.62" y="8.89" smashed="yes">
+<element name="X1" library="joakim" package="MA06N-1J" value="MA06-1JN" x="7.62" y="8.89" smashed="yes">
 <attribute name="VALUE" x="3.81" y="5.969" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X2" library="joakim" package="MA06-1J" value="MA06-1JC" x="7.62" y="1.27" smashed="yes" rot="R180">
+<element name="X2" library="joakim" package="MA06N-1J" value="MA06-1JN" x="7.62" y="1.27" smashed="yes" rot="R180">
 <attribute name="VALUE" x="11.43" y="4.191" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 </elements>
@@ -488,10 +461,8 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <contactref element="X2" pad="1"/>
 <wire x1="1.405" y1="6.985" x2="0.635" y2="6.985" width="0.254" layer="1"/>
 <via x="0.635" y="6.985" extent="1-16" drill="0.3302"/>
-<wire x1="0.975" y1="4.33" x2="0.975" y2="3.9113" width="0.254" layer="1"/>
-<wire x1="1.0763" y1="3.81" x2="0.975" y2="3.9113" width="0.254" layer="1"/>
 <via x="1.0763" y="3.81" extent="1-16" drill="0.3302"/>
-<wire x1="9.865" y1="4.33" x2="9.865" y2="3.8325" width="0.254" layer="1"/>
+<wire x1="10.515" y1="4.33" x2="9.865" y2="3.8325" width="0.254" layer="1"/>
 <wire x1="9.865" y1="3.8325" x2="9.8425" y2="3.81" width="0.254" layer="1"/>
 <via x="9.8425" y="3.81" extent="1-16" drill="0.3302"/>
 <wire x1="6.6675" y1="4.58" x2="6.6675" y2="3.81" width="0.254" layer="1"/>
@@ -506,6 +477,9 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <vertex x="15.5575" y="-0.3175"/>
 <vertex x="-0.3175" y="-0.3175"/>
 </polygon>
+<wire x1="1.5875" y1="3.81" x2="1.625" y2="3.8475" width="0.254" layer="1"/>
+<wire x1="1.625" y1="3.8475" x2="1.625" y2="4.33" width="0.254" layer="1"/>
+<wire x1="1.0763" y1="3.81" x2="1.5875" y2="3.81" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C1" pad="1"/>
@@ -513,7 +487,7 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <contactref element="C3" pad="1"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="X1" pad="1"/>
-<wire x1="0.975" y1="5.83" x2="1.7025" y2="5.83" width="0.254" layer="1"/>
+<wire x1="1.625" y1="5.83" x2="2.02" y2="5.83" width="0.254" layer="1"/>
 <wire x1="2.405" y1="6.985" x2="2.4765" y2="7.0565" width="0.254" layer="1"/>
 <via x="2.4765" y="7.9375" extent="1-16" drill="0.3302"/>
 <wire x1="2.4765" y1="7.9375" x2="4.064" y2="6.35" width="0.254" layer="16"/>
@@ -524,12 +498,12 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <wire x1="1.524" y1="8.89" x2="2.4765" y2="7.9375" width="0.254" layer="1"/>
 <wire x1="2.405" y1="6.985" x2="2.405" y2="7.866" width="0.254" layer="1"/>
 <wire x1="2.405" y1="7.866" x2="2.4765" y2="7.9375" width="0.254" layer="1"/>
-<wire x1="1.7025" y1="5.83" x2="2.405" y2="6.5325" width="0.254" layer="1"/>
-<wire x1="2.405" y1="6.5325" x2="2.405" y2="6.985" width="0.254" layer="1"/>
+<wire x1="2.02" y1="5.83" x2="2.405" y2="6.215" width="0.254" layer="1"/>
+<wire x1="2.405" y1="6.215" x2="2.405" y2="6.985" width="0.254" layer="1"/>
 <wire x1="8.5725" y1="5.58" x2="8.5725" y2="5.715" width="0.254" layer="1"/>
 <wire x1="8.5725" y1="5.715" x2="8.5725" y2="6.0325" width="0.254" layer="1"/>
 <wire x1="8.5725" y1="6.0325" x2="8.255" y2="6.35" width="0.254" layer="1"/>
-<wire x1="9.865" y1="5.83" x2="8.6875" y2="5.83" width="0.254" layer="1"/>
+<wire x1="10.515" y1="5.83" x2="8.6875" y2="5.83" width="0.254" layer="1"/>
 <wire x1="8.6875" y1="5.83" x2="8.5725" y2="5.715" width="0.254" layer="1"/>
 </signal>
 <signal name="+5V">
@@ -538,14 +512,14 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <contactref element="C4" pad="1"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="X1" pad="6"/>
-<wire x1="6.465" y1="5.83" x2="5.375" y2="5.83" width="0.254" layer="1"/>
+<wire x1="6.465" y1="5.83" x2="4.725" y2="5.83" width="0.254" layer="1"/>
 <wire x1="6.6675" y1="6.6675" x2="6.985" y2="6.985" width="0.254" layer="1"/>
 <wire x1="6.985" y1="6.985" x2="8.89" y2="6.985" width="0.254" layer="1"/>
 <via x="8.89" y="6.985" extent="1-16" drill="0.3302"/>
 <wire x1="8.89" y1="6.985" x2="12.065" y2="6.985" width="0.254" layer="16"/>
 <via x="12.065" y="6.985" extent="1-16" drill="0.3302"/>
 <wire x1="12.065" y1="6.985" x2="12.835" y2="6.985" width="0.254" layer="1"/>
-<wire x1="14.265" y1="5.83" x2="13.22" y2="5.83" width="0.254" layer="1"/>
+<wire x1="13.615" y1="5.83" x2="13.22" y2="5.83" width="0.254" layer="1"/>
 <wire x1="12.835" y1="6.215" x2="12.835" y2="6.985" width="0.254" layer="1"/>
 <wire x1="13.22" y1="5.83" x2="12.835" y2="6.215" width="0.254" layer="1"/>
 <wire x1="12.835" y1="6.985" x2="12.835" y2="7.755" width="0.254" layer="1"/>
@@ -557,14 +531,14 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <signal name="A1">
 <contactref element="IC1" pad="2"/>
 <contactref element="X1" pad="2"/>
-<wire x1="0.975" y1="5.33" x2="2.155" y2="5.33" width="0.254" layer="1"/>
-<wire x1="2.155" y1="5.33" x2="3.81" y2="6.985" width="0.254" layer="1"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="8.89" width="0.254" layer="1"/>
+<wire x1="1.625" y1="5.33" x2="2.31375" y2="5.33" width="0.254" layer="1"/>
+<wire x1="2.31375" y1="5.33" x2="3.81" y2="6.82625" width="0.254" layer="1"/>
+<wire x1="3.81" y1="6.82625" x2="3.81" y2="8.89" width="0.254" layer="1"/>
 </signal>
 <signal name="A2">
 <contactref element="IC1" pad="3"/>
 <contactref element="X1" pad="3"/>
-<wire x1="0.975" y1="4.83" x2="2.6075" y2="4.83" width="0.254" layer="1"/>
+<wire x1="1.625" y1="4.83" x2="2.6075" y2="4.83" width="0.254" layer="1"/>
 <wire x1="6.35" y1="8.5725" x2="2.6075" y2="4.83" width="0.254" layer="1"/>
 <wire x1="6.35" y1="8.5725" x2="6.35" y2="8.89" width="0.254" layer="1"/>
 </signal>
@@ -579,27 +553,29 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <via x="5.3975" y="3.81" extent="1-16" drill="0.3302"/>
 <wire x1="6.0325" y1="3.175" x2="5.3975" y2="3.81" width="0.254" layer="1"/>
 <wire x1="5.3975" y1="3.81" x2="5.3975" y2="4.3075" width="0.254" layer="1"/>
-<wire x1="5.3975" y1="4.3075" x2="5.375" y2="4.33" width="0.254" layer="1"/>
+<wire x1="5.3975" y1="4.3075" x2="4.725" y2="4.33" width="0.254" layer="1"/>
 <wire x1="6.0325" y1="3.175" x2="9.8425" y2="3.175" width="0.254" layer="1"/>
 <via x="9.8425" y="3.175" extent="1-16" drill="0.3302"/>
 <wire x1="9.8425" y1="3.175" x2="13.6525" y2="3.175" width="0.254" layer="16"/>
 <via x="13.6525" y="3.175" extent="1-16" drill="0.3302"/>
-<wire x1="13.6525" y1="3.175" x2="14.265" y2="3.7875" width="0.254" layer="1"/>
-<wire x1="14.265" y1="3.7875" x2="14.265" y2="4.33" width="0.254" layer="1"/>
+<wire x1="13.6525" y1="3.175" x2="13.6525" y2="4.24125" width="0.254" layer="1"/>
+<wire x1="13.6525" y1="4.24125" x2="13.63" y2="4.26375" width="0.254" layer="1"/>
+<wire x1="13.653315625" y1="4.291684375" x2="13.63" y2="4.26375" width="0.254" layer="1"/>
+<wire x1="13.653315625" y1="4.291684375" x2="13.615" y2="4.33" width="0.254" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="IC2" pad="2"/>
 <contactref element="X1" pad="4"/>
-<wire x1="9.865" y1="5.33" x2="10.7275" y2="5.33" width="0.254" layer="1"/>
-<wire x1="10.7275" y1="5.33" x2="11.1125" y2="5.715" width="0.254" layer="1"/>
-<wire x1="11.1125" y1="5.715" x2="11.1125" y2="6.0325" width="0.254" layer="1"/>
-<wire x1="8.89" y1="8.255" x2="8.89" y2="8.89" width="0.254" layer="1"/>
-<wire x1="11.1125" y1="6.0325" x2="8.89" y2="8.255" width="0.254" layer="1"/>
+<wire x1="10.515" y1="5.33" x2="11.045" y2="5.33" width="0.254" layer="1"/>
+<wire x1="11.045" y1="5.33" x2="11.27125" y2="5.55625" width="0.254" layer="1"/>
+<wire x1="11.27125" y1="5.55625" x2="11.27125" y2="6.0325" width="0.254" layer="1"/>
+<wire x1="8.89" y1="8.41375" x2="8.89" y2="8.89" width="0.254" layer="1"/>
+<wire x1="11.27125" y1="6.0325" x2="8.89" y2="8.41375" width="0.254" layer="1"/>
 </signal>
 <signal name="A4">
 <contactref element="IC2" pad="3"/>
 <contactref element="X1" pad="5"/>
-<wire x1="9.865" y1="4.83" x2="11.18" y2="4.83" width="0.254" layer="1"/>
+<wire x1="10.515" y1="4.83" x2="11.18" y2="4.83" width="0.254" layer="1"/>
 <wire x1="11.18" y1="4.83" x2="11.7475" y2="5.3975" width="0.254" layer="1"/>
 <wire x1="11.7475" y1="5.3975" x2="11.7475" y2="6.35" width="0.254" layer="1"/>
 <wire x1="11.7475" y1="6.35" x2="11.43" y2="6.6675" width="0.254" layer="1"/>
@@ -608,32 +584,33 @@ Source: https://www.diodes.com/assets/Package-Files/VSSOP-8.pdf</description>
 <signal name="B1">
 <contactref element="IC1" pad="7"/>
 <contactref element="X2" pad="5"/>
-<wire x1="5.375" y1="5.33" x2="4.06" y2="5.33" width="0.254" layer="1"/>
-<wire x1="4.06" y1="5.33" x2="3.175" y2="4.445" width="0.254" layer="1"/>
-<wire x1="3.175" y1="4.445" x2="3.175" y2="1.905" width="0.254" layer="1"/>
+<wire x1="4.725" y1="5.33" x2="3.90125" y2="5.33" width="0.254" layer="1"/>
+<wire x1="3.90125" y1="5.33" x2="3.175" y2="4.60375" width="0.254" layer="1"/>
+<wire x1="3.175" y1="4.60375" x2="3.175" y2="1.905" width="0.254" layer="1"/>
 <wire x1="3.175" y1="1.905" x2="3.81" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="B2">
 <contactref element="IC1" pad="6"/>
 <contactref element="X2" pad="4"/>
-<wire x1="5.375" y1="4.83" x2="4.5125" y2="4.83" width="0.254" layer="1"/>
-<wire x1="4.5125" y1="4.83" x2="4.1275" y2="4.445" width="0.254" layer="1"/>
-<wire x1="4.1275" y1="4.445" x2="4.1275" y2="3.175" width="0.254" layer="1"/>
-<wire x1="6.0325" y1="1.27" x2="4.1275" y2="3.175" width="0.254" layer="1"/>
+<wire x1="4.725" y1="4.83" x2="4.195" y2="4.83" width="0.254" layer="1"/>
+<wire x1="4.195" y1="4.83" x2="3.81" y2="4.445" width="0.254" layer="1"/>
+<wire x1="3.81" y1="4.445" x2="3.81" y2="3.4925" width="0.254" layer="1"/>
+<wire x1="6.0325" y1="1.27" x2="3.81" y2="3.4925" width="0.254" layer="1"/>
 <wire x1="6.0325" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="B3">
 <contactref element="IC2" pad="7"/>
 <contactref element="X2" pad="3"/>
-<wire x1="8.89" y1="1.27" x2="12.95" y2="5.33" width="0.254" layer="1"/>
-<wire x1="12.95" y1="5.33" x2="14.265" y2="5.33" width="0.254" layer="1"/>
+<wire x1="12.6325" y1="5.33" x2="8.89" y2="1.5875" width="0.254" layer="1"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="1.5875" width="0.254" layer="1"/>
+<wire x1="12.6325" y1="5.33" x2="13.615" y2="5.33" width="0.254" layer="1"/>
 </signal>
 <signal name="B4">
 <contactref element="IC2" pad="6"/>
 <contactref element="X2" pad="2"/>
-<wire x1="13.4025" y1="4.83" x2="11.43" y2="2.8575" width="0.254" layer="1"/>
-<wire x1="11.43" y1="1.27" x2="11.43" y2="2.8575" width="0.254" layer="1"/>
-<wire x1="13.4025" y1="4.83" x2="14.265" y2="4.83" width="0.254" layer="1"/>
+<wire x1="12.92625" y1="4.83" x2="11.43" y2="3.33375" width="0.254" layer="1"/>
+<wire x1="11.43" y1="1.27" x2="11.43" y2="3.33375" width="0.254" layer="1"/>
+<wire x1="12.92625" y1="4.83" x2="13.615" y2="4.83" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
